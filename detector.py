@@ -16,7 +16,8 @@ class Detector:
     def detect(self, img_bucket, img_key, detection_classes):
         """
         Args:
-            detections: a numpy array
+            img_bucket: a string
+            img_key: a string
             detection_classes: a list
         """
         data = {'img_bucket': img_bucket, 'img_key': img_key}
