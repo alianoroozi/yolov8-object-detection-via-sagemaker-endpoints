@@ -28,7 +28,7 @@ class Detector:
     
     def process_torch_prediction(self, detections, detection_classes):
         """
-        Process torch model output and return detected label and coordinates of sensors, reference boxes, and the qr code.
+        Process torch model output and return coordinates of detected objects and prediction scores.
         Args:
             detections: a numpy array
             detection_classes: a list
